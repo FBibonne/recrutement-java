@@ -6,7 +6,7 @@ Les quelques lignes de codes à écrire permettront de :
 - enregistrer ces communes dans un fichier
 - exécuter quelques traitement algorithmiques dessus
 
-## Pré-requis
+## Pré-requis (à voir avant l'entretien)
 
 ### Information sur la base des communes de l'Insee
 
@@ -93,3 +93,10 @@ Disposer également d'un IDE prêt à fonctionner (eclipse, intellij Idea, VSCod
 ### Git
 
 Pour bien récupérer correctement le projet de départ sur son poste, il est recommandé d'utiliser l'outil git et de cloner ce projet sur son poste.
+
+## Travail demandé (durant l'entretien)
+
+- Ecrire une ou plusieurs classes java pour :
+  - interroger l'api du référentiel des communes de l'Insee (en utilisant RestHttp) et en instanciant les objets communes
+  - enregistrer toutes les instances récupérées dans un fichier après les avoir triées
+  - Répondre à une question de la sorte : quelle est l'année qui a vu la création du plus de communes
