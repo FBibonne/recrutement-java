@@ -6,7 +6,7 @@ Les quelques lignes de codes à écrire permettront de :
 - enregistrer ces communes dans un fichier
 - exécuter quelques traitement algorithmiques dessus
 
-## Pré-requis (à voir avant l'entretien)
+## Contexte
 
 ### Information sur la base des communes de l'Insee
 
@@ -74,8 +74,6 @@ Afin d'effectuer le traitement sur les données json fournies par l'API, on pour
     </dependency>
 ```
 
-[Démonstration de l'utilisation de jackson](https://www.baeldung.com/jackson-deserialize-json-unknown-properties) 
-
 Le schéma de la classe représentant une commune se déduit facilement du json.
 
 ### Java
@@ -94,7 +92,7 @@ Disposer également d'un IDE prêt à fonctionner (eclipse, intellij Idea, VSCod
 
 Pour bien récupérer correctement le projet de départ sur son poste, il est recommandé d'utiliser l'outil git et de cloner ce projet sur son poste.
 
-## Travail demandé (durant l'entretien)
+## Travail demandé
 
 - Ecrire une ou plusieurs classes java pour :
   - interroger l'api du référentiel des communes de l'Insee (en utilisant RestHttp) et en instanciant les objets communes
